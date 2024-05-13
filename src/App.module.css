@@ -1,0 +1,33 @@
+.title {
+    font-size: 3rem;
+    text-align: center;
+    color: #2980B9 ;
+}
+
+.container_title {
+    background-color: #212F3D;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.container {
+    width: 95%;
+    max-width: 100rem;
+    margin: 0 auto;
+    background-color: rgba(33, 47, 60);
+    padding: 2rem;
+    color: var(--white);
+    border-radius: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 4rem;
+        margin-top: 5rem;
+    }
+}

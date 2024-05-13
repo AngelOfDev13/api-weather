@@ -1,0 +1,25 @@
+:root {
+  --black : #000;
+  --primary: hsl(204, 68%, 43%);
+  --white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('/public/serenity-and-peace-with-this-breathtaking-4k-wallpaper-depicting-a-tranquil-natural-landscape-free-photo.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--black);
+  font-size: 2rem;
+  
+}

@@ -1,0 +1,44 @@
+.form, 
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form input[type='text'],
+.form select {
+    padding: 1rem;
+    background-color: transparent;
+    border: .1rem solid var(--white); 
+    outline: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+
+/* .field ::placeholder {
+    color: red;
+} */
+
+.option {
+    color: black;
+}
+
+.submit {
+    background-color: var(--primary);
+    border-style: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:hover {
+    background-color: #1F618D;
+    transition: ease-in-out .2s;
+}

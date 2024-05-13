@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+}
+
+.current {
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.temperatures {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.temperatures p{
+    font-weight: 900;
+}
+
+.temperatures span {
+    font-weight: 400;
+}
